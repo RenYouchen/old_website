@@ -15,22 +15,12 @@ body {
   color: wheat;
   width: 15rem;
   z-index: 10;
-  height: 100%;
   margin: 10px;
+  /*height: 100%;*/
   float: left;
   position: -webkit-sticky;
   position: sticky;
   top: 20px;
-}
-
-.article {
-  float: right;
-  /*position: sticky;*/
-}
-
-.bottom {
-  background: #333333;
-  position: sticky;
 }
 
 .list-unstyled {
@@ -40,6 +30,7 @@ body {
 
 .bottom {
   padding: 5px 10px;
+  background: #333333;
   background: initial;
   text-align: center;
 }
@@ -47,6 +38,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  padding: 10px 30px;
 }
 
 .bottom:hover {
@@ -58,12 +50,5 @@ a {
   position: sticky;
   top: 0;
   z-index: 9;
-}
-
-.bar {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 10;
 }
 
