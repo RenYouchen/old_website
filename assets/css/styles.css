@@ -1,0 +1,17 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Comfortaa';
+  float: none;
+}
+
+body {
+  background: #93b7d1;
+}
+
+.bar {
+  background: #282d32;
+  width: 15rem;
+  height: 100rem;
+}
+
