@@ -7,19 +7,63 @@
 
 body {
   background: #93b7d1;
+  height: 100rem;
 }
 
 .bar {
   background: #282d32;
   color: wheat;
   width: 15rem;
-  height: 100rem;
+  z-index: 10;
+  height: 100%;
+  margin: 10px;
   float: left;
+  position: -webkit-sticky;
   position: sticky;
-  top: 0px;
+  top: 20px;
 }
 
 .article {
   float: right;
+  /*position: sticky;*/
+}
+
+.bottom {
+  background: #333333;
+  position: sticky;
+}
+
+.list-unstyled {
+  margin: 25px;
+  font-size: 25px;
+}
+
+.bottom {
+  padding: 5px 10px;
+  background: initial;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bottom:hover {
+  background: rgba(35,35,35,0.81);
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+
+.bar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
