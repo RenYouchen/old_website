@@ -3,6 +3,7 @@
   margin: 0px;
   font-family: 'Comfortaa';
   float: none;
+  z-index: auto;
 }
 
 body {
@@ -30,7 +31,6 @@ body {
 
 .bottom {
   padding: 5px 10px;
-  background: #333333;
   background: initial;
   text-align: center;
 }

@@ -7,15 +7,17 @@
     <title>Blog</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body style="border-color: var(--bs-white);">
+<body style="border-color: var(--bs-white);background: #93b7d1;">
     <div>
-        <nav class="navbar navbar-light navbar-expand-lg sticky-top navigation-clean">
+        <nav class="navbar navbar-light navbar-expand-lg sticky-top navigation-clean" style="color: rgb(51, 51, 51);background: rgb(123, 146, 163);">
             <div class="container"><a class="navbar-brand" href="#">renyouchen.github.io</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="navbar-nav ms-auto">
@@ -28,7 +30,7 @@
                 </div>
             </div>
         </nav>
-        <section class="highlight-blue">
+        <section class="highlight-blue" style="background: #1e6add;">
             <div class="container">
                 <div class="intro">
                     <h2 class="text-center">just a blog</h2>
@@ -37,12 +39,34 @@
             </div>
         </section>
     </div>
-    <ul class="list-unstyled bar">
+    <ul class="list-unstyled bar" style="background: #05253B;">
         <li class="bottom"><a href="index.html">Homepage</a></li>
         <li class="bottom"><a href="#">Link</a></li>
         <li class="bottom"><a href="#">Link</a></li>
         <li class="bottom"><a href="#">Link</a></li>
     </ul>
+    <section class="article-list">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Latest Articles</h2>
+                <p class="text-center">這裏有一點點奇怪的文章？（也許不是文章</p>
+            </div>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item"><a href="#"></a>
+                    <h3 class="name">第一篇文章</h3>
+                    <p class="description">這是我用Bootstrap寫出來的第一篇文章，也許關於這個網站，之類的</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"></a>
+                    <h3 class="name">Article Title</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"></a>
+                    <h3 class="name">Article Title</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
