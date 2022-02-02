@@ -11,7 +11,15 @@ body {
 
 .bar {
   background: #282d32;
+  color: wheat;
   width: 15rem;
   height: 100rem;
+  float: left;
+  position: sticky;
+  top: 0px;
+}
+
+.article {
+  float: right;
 }
 
